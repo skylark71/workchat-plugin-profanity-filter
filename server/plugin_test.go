@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
+	"gitlab.com/w1572/backend/model"
+	"gitlab.com/w1572/backend/plugin"
 )
 
 func TestMessageWillBePosted(t *testing.T) {

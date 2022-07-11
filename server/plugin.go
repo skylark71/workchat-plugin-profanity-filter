@@ -11,12 +11,12 @@ import (
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
+	"gitlab.com/w1572/backend/model"
+	"gitlab.com/w1572/backend/plugin"
 )
 
 type Plugin struct {
-	plugin.MattermostPlugin
+	plugin.WorkchatPlugin
 
 	// configurationLock synchronizes access to the configuration.
 	configurationLock sync.RWMutex
